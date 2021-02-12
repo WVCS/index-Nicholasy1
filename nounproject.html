@@ -16,26 +16,43 @@
 
 <h1> MICHAEL PHELPS </h1>
 
- <table> 
+<table>
   <tr>
-    <th> Medals </th>
-    <td> Gold </td>
-    <td> Silver </td>
-    <td> Bronze </td>
-    </tr>
+    <th>Medals</th>
+    <th>Numbers</th>
+  </tr>
   <tr>
-    <th> Number </th>
-    <td> 23 </td>
-    <td> 3 </td>
-    <td> 2 </td>
-    </tr>
-    </table>
-
-
+    <td>Gold</td>
+    <td>23</td>
+  </tr>
+  <tr>
+    <td>Silver</td>
+    <td>3</td>
+  </tr>
+  <tr>
+    <td>Bronze</td>
+    <td>2</td>
+  </tr>
 </body>
 
 
 <style>
+  
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lavender;
+}
   
 h1 {
   color: lavender;
@@ -69,13 +86,6 @@ li a{
 body {
    background-color: E2A2BC;
   }
-
-table, th, tr, td {
-  border: 2px solid lavender;
-}
-table {
-  text-align: center;
-}
 
 
 

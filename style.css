@@ -1,3 +1,25 @@
-body {
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: lavender;
+  top: 0%;
+  
+}
 
+li{
+  display: inline;
+  float: right;
+  overflow: hidden;
+  position: left;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  padding: 15px 40px;
+  color: C95485;
+  font-size: 20px;
 }

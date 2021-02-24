@@ -1,10 +1,10 @@
-ul{
+ ul{
   list-style-type: none;
   width: 100%;
   overflow: hidden;
   margin: 0;
   padding: 0;
-  background: pink;
+  background: lavender;
   top: 0%;
   
 }
@@ -19,9 +19,6 @@ li a{
   display: block;
   text-decoration: none;
   padding: 15px 40px;
-  color: lavender;
+  color: C95485;
   font-size: 20px;
 }
-
-
-

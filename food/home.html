@@ -19,8 +19,17 @@
   
   
   <body>
- 
+    <h1> Open EVERYDAY From 7am - 9pm! </h1>
     
+    <h1> Daily Specials! </h1>
+ 
+ <div class="wrapper">
+  <div class="item1"> Giant Buckeye Cookie </div>
+ <div class="item1_img"> <img src="https://www.tasteofhome.com/wp-content/uploads/2019/10/Giant-Buckeye-Cookie_EXPS_CIMZ19_242260_E09_13_4b-5.jpg" class="gridimg"> </div>
+<div class="item2"> Easter Egg Cake </div>
+<div class="item2_img"> <img src="https://assets.epicurious.com/photos/58d2961045d58f3111d7ad67/1:1/w_1600%2Cc_limit/Strawberry-Malted-Easter-Nest-Cake-SLICED-PLATED-22032017.jpg" class="gridimg"> </div>
+    </div>
+
 
 
     
@@ -35,9 +44,30 @@
   
  <style>
    
-   
+.wrapper {
+      display: grid;
+      grid-template-columns: 500px 450px;
+      position: absolute;
+      left: 250px;
+      top: 1300px;
+      background-color: antiquewhite;
+      color: #ddbea9;
+      grid-gap: 10px;
+      padding: 20px;
+      border-radius: 5px;
+      border: solid #dbea9 5px;
+}
 
+.item1 {
+  font-size: 50px;
+   } 
 
+.item2 {
+  font-size: 50px;
+   }
+ .gridimg {
+   width: 400px;
+}  
 body {
   background-color: #ffe8d6
 }

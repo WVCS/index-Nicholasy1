@@ -8,23 +8,90 @@
     
   </head>
   <body>
+    
   <ul>
   <li><a href="home.html">HOME</a></li>
   <li><a href="datetime.html"> DATE & TIME </a></li>
   </ul>
     
-    
-    
+    <h2> Event Schedule </h2>   
+ <table class="center" style="background-color:#f8edeb;">
+     <tr>
+      <th>Event #1</th>
+       <td>100 Freestyle</td>
+       <td>8:05AM</td>
+     </tr>
+     <tr>
+      <th>Event #2</th>
+        <td>500 Freestyle</td>
+        <td>9:05 AM</td>
+      </tr>
+      <th>Event #3</th>
+        <td>100 Butterfly</td>
+        <td>10:30 AM</td>
+      </tr>  
+      <tr>
+      <th>Lunch Break</th>
+        <td>----</td>
+        <td>----</td>
+      </tr>
+    <th>Event #4</th>
+        <td>100 Breastroke</td>
+        <td>12:30 PM</td>
+      </tr> 
+  <th>Event #5</th>
+        <td>100 Backstroke</td>
+        <td>1:30 PM</td>
+      </tr> 
+<th>Event #6</th>
+        <td>200 Individual Medley</td>
+        <td>2:30 PM</td>
+      </tr> 
+      </table>   
     
   </body>
 
   
   <style>
-    
+   h2 {
+     text-align: center;
+    }
+ td{
+  border: 2px solid white;
+  flex: 100%;
+}
+
+th{
+  text-align: left;
+  border: solid white;
+  background-color: antiquewhite;
+}
+
+th, td{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 15%;
+  padding-left: 2%;
+}
+
+tr{
+  transition-duration: 0.6s;
+  color: antique white;
+
+}
+
+tr:hover{
+  background-color: #ffe5d9;
+  transition-duration: 0.6s;
+  color: #ddbea9;
+}   
 body {
   background-color: #b8f2e6;
 }
-
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
 ul{
   list-style-type: none;
   width: 100%;

@@ -1,26 +1,219 @@
 <html>
   <head>
       
-  <link rel="icon" href="pngtree-trampoline-game-image_1400243-removebg-preview.png">  
+  <link rel="icon" href="https://wvcs.github.io/index-Nicholasy1/amusement/pngtree-trampoline-game-image_1400243-removebg-preview.png">  
     
   <title> SkyHigh Trampoline Park </title>
     
   </head>
   <body>
   <ul>
+      <li> <img src="https://wvcs.github.io/index-Nicholasy1/amusement/pngtree-trampoline-game-image_1400243-removebg-preview.png" width="50" height="50"> </li>
   <li><a href="../index.html">ABOUT ME</a></li>
-  <li><a href="home.html">HOME</a></li>
   </ul>
+    <h1> SkyHigh Trampoline Park </h1>  
+   <img src="https://wvcs.github.io/index-Nicholasy1/amusement/pngtree-trampoline-game-image_1400243-removebg-preview.png" class="logo"> 
+
+
     
-   <img src="pngtree-trampoline-game-image_1400243-removebg-preview.png">
-  </body>
+    
+   <div class="center1">
+  <div class="box a"><center>Location<center><p>San Diego, California</div>
+  <div class="box b"><center>Open Hours<center><p>Everyday: 10am-7pm</div>
+  <div class="box c"><center>Tickets<center><p>$10 per person</div>
+    </div> 
+   
+    
+     <button class="totop" onclick="topfunction()" id='topbutton'> 
+    <img src="https://cdn.iconscout.com/icon/free/png-256/up-chevron-458462.png" class="arrowup">
+  </button>
+    
+    
+    
+ 
+  <h2> ATTRACTIONS </h2>
+  <div class="wrapper">
+    <div class="item">      
+      <div class="row"> 
+        <div class="column">
+          <img src="https://redtri.com/wp-content/uploads/2013/12/sky-zone.jpg" style="width:100%">
+          <img src="https://lajollamom.com/wp-content/uploads/2017/07/sky-zone-trampoline-park-san-diego-6.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://rockinjump.com/wp-content/uploads/2016/02/rockin-jump-trampoline-park.jpg" style="width:100%">
+          <img src="https://simpletexting.com/wp-content/uploads/2019/07/Altitude-Trampoline-Park-Texting-Success-Story.jpeg" style="width:100%">
+        </div>  
+        <div class="column">
+          <img src="https://www.pennlive.com/resizer/eQsdlLkQMuEvIJPlLTgNUt573yM=/450x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/R4WEQAN7YFBFPFGKRGTCDOXWAE.jpg" style="width:100%">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU4y1G_ptulea6Z7_J7-tkNBF5ClqTh4rkMA&usqp=CAU" style="width:100%">
+          <img src="https://www.exploreminnesota.com/sites/default/files/listing_images/5aacadd9a70a83e4c07670c7153beb0ddd03b87b_17.png" style="width:100%">
+        </div>
+        <div class="column">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwfP4eGIaYkUte4aRxM6fQZ-PwQY1liBUixg&usqp=CAU" style="width:100%">
+          <img src="https://www.riversidetransit.com/images/ARTICLE_ART/DESTINATIONS/2019/Hangar-Trampoline-Park.jpg" style="width:100%">
+          <img src="https://surgefun.com/mediacontent//2019/10/28/17/Surge_trampoline_park_tickets_homewood_AL_216438.jpg" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </div>
+    
+ </body>
     </html>
 
 
 
-<style>
-  body {
-    background-color: pink;
+body {
+  background-color: #cddafd;
+}
+
+ul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background: #dfe7fd;
+  top: 0%;
+  
+}
+
+li{
+  display: inline;
+  float: left;
+  overflow: hidden;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  padding: 15px 40px;
+  color: #61a5c2;
+  font-size: 20px;
+}
+
+li a:hover {
+  background-color: #d8e2dc;
+  font-size: 20px;
+}
+
+.logo{display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 10%;}
+
+h1 {
+  text-align: center;
+  color: #61a5c2;
+}
+
+
+.center1 {
+  display: grid;
+  grid-template-columns: 630px 630px 630px;
+  grid-gap: 10px;
+  background-color: #cddafd;
+  color: #444;
+}
+
+.box {
+  background-color: #dfe7fd;
+  color: #61a5c2;
+  border-radius: 5px;
+  padding: 100px;
+  font-size: 150%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
   
-</style>
+ #topbutton {
+  display: none;
+  position: fixed;
+  bottom: 1%;
+  right: 1%;
+  border: none;
+  background-color: white;
+  padding: 1vw;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 5%;
+}
+
+.arrowup{
+  width: 100%;
+}
+
+.wrapper{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+  border: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.item{
+  background-color: #dfe7fd;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 5%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0px 4px;
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%;
+  padding: 0px 4px;
+}
+
+.column img {
+  margin-top: 50px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  color: #61a5c2;
+}
+
+
+
+
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+
+
+function topfunction () {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+window.onscroll = function(){hidefunction ()};
+
+function hidefunction () {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80)
+    document.getElementById("topbutton").style.display = "block";
+  else { document.getElementById("topbutton").style.display = "none"; }
+}

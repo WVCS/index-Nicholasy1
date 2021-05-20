@@ -83,3 +83,5 @@ function autocomplete(inp, arr) {
 var autoAnswers = ["Shoes", "Boots", "Shorts", "Shirts", "Hoodies", "Jackets", "Hats",];
 
 autocomplete(document.getElementById("myInput"), autoAnswers);
+
+window.alert("Due to the Coronovirus, please wear a mask when visiting our store. Thank you!");
